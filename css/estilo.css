@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -14,17 +15,14 @@ header{
     height: 80px;
     padding-left: 35px;
     border-bottom: 1px solid gray;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
 }
 
 .logo{
-    width: 150px;
+    width: 200px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -41,7 +39,7 @@ a{
 }
 
 .logo img{
-    width: 130px;
+    width: 180px;
     object-fit: cover;
 }
 
@@ -71,6 +69,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(33, 62, 208);
     height: 95%;
 }
 
@@ -84,7 +83,7 @@ nav ul li:last-child{
 
 nav li a:hover, .cabecalho nav .active a{
     border-bottom: 2px solid #b28756;
-    color: grey;
+    color: red;
 }
 
 nav ul li:last-child a{
@@ -102,22 +101,88 @@ nav ul li:last-child a:hover{
 }
 
 /* main */
-
 main{
+    height: 100vh;
+}
+
+/* SECTIONS */
+
+main .home{
     background-image: url(../img/capa.jpeg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
     padding-left: 35px;
+    padding-top: 300px;
+    height: 100%;
 }
 
-main .main-conteudo{
-    display: flex;
-    align-items: center;
-    height: 80vh;
-}
-
-.main-conteudo h1{
-    font-size: 4vw;
+.home h1{
+    font-size: 3vw;
     color:red;
+}
+
+.home a{
+    display: block;
+    margin-top: 48px;
+    width: 280px;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: medium;
+    line-height: 72px;
+    text-align: center;
+}
+
+main .home a:hover {
+    background: #e02c33;
+}
+
+main .quemSomos{
+    height: 80%;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 160px;
+    background-color: rgb(247, 247, 247);
+}
+
+.quemSomos .paragrafo{
+    width: 530px;
+    height: 200px;
+    padding-top: 80px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+.paragrafo p{
+    color: gray;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.paragrafo a{
+    display: block;
+    margin-top: 48px;
+    width: 280px;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    background: #e02c33;
+    color: white;
+    font-size: medium;
+    line-height: 72px;
+    text-align: center;
+}
+
+.quemSomos .imagem{
+    width: 700px;
+    height: 160px;
+}
+
+.imagem img{
+    width: 100%;
 }

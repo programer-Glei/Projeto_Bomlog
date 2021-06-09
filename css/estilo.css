@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vh;
+    height: 80px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    border-right: 1px solid rgb(35, 48, 70);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul, nav li{
+    list-style: none;
+}

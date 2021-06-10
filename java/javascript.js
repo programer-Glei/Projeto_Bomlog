@@ -10,13 +10,14 @@ function selectImage(event) {
         button.classList.remove("active")
     })
     // selecionar a image clicada
-    const image = button.children[0][0]
-    console.log(image)
-    const imageContainer = document.querySelector(".op-image img")
+    const imagens = button.children[0]
+    const url = imagens.children[0]
+    console.log(url)
+    const imageContainer = document.querySelector(".img-redonda img")
     console.log(imageContainer)
 
     //atualizar o container de image
-    imageContainer.src = image.src
+    imageContainer.src = url.src
 
     //adicionar a classe .active para este botão
     button.classList.add("active")

@@ -237,7 +237,6 @@ main .operacao{
 }
 
 .op .op-item{
-    border: 1px solid gray;
     border-radius: 15px;
     padding: 30px 20px;
     margin-bottom: 10px;
@@ -246,8 +245,13 @@ main .operacao{
     cursor: pointer;
 }
 
+.borda{
+    border: 1px solid gray;
+}
+
 .active{
     background-color: white;
+    border: none;
 }
 
 .op-item .op-m{

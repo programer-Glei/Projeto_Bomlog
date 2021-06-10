@@ -241,9 +241,13 @@ main .operacao{
     border-radius: 15px;
     padding: 30px 20px;
     margin-bottom: 10px;
-    display: flex;
+    display:flex;
     align-items: center;
     cursor: pointer;
+}
+
+.active{
+    background-color: white;
 }
 
 .op-item .op-m{

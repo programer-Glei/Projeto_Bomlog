@@ -193,7 +193,7 @@ main .quemSomos{
     width: 100%;
 }
 
-main .operacao{
+main .operacao, main .vantagens{
     padding-left: 100px;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -201,13 +201,13 @@ main .operacao{
 }
 
 
-.operacao h1{
+.operacao h1, .vantagens h1{
     font-size: 60px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.operacao p{
+.operacao p, .vantagens p{
     color: gray;
     font-weight: lighter;
     font-size: 25px;
@@ -224,7 +224,8 @@ main .operacao{
     border-bottom: 1px solid #e02c33;
 }
 
-.operacao .operacoes{
+.operacao .operacoes, .vantagens .operacoes{
+    border: 1px solid red;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -287,4 +288,72 @@ main .operacao{
 
 .op-image .img-redonda img{
     width: 60%;
+}
+
+main .vantagens{
+    background-color: white;
+}
+
+.vantagens .operacoes{
+    flex-direction: column;
+}
+
+.vantagens .operacoes .card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operacoes .card .cards{
+    border: 1px solid red;
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: rgb(247, 247, 247);
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.cards img{
+    width: 100px;
+    height: 100px;
+}
+
+.operacoes .rodape{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/final-background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape h1{
+    font-size: 46px;
+    color: white;
+}
+
+.rodape a{
+    display: block;
+    width: 280px;
+    height: 65px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    color: black;
+    font-size: medium;
+    line-height: 65px;
+    text-align: center;
 }

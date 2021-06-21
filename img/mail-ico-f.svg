@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.618 14.875">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #a2a2a2;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="mail-ico-f" transform="translate(-1168 -3072.757)">
+    <g id="Rectangle_39" data-name="Rectangle 39" class="cls-1" transform="translate(1168 3072.757)">
+      <rect class="cls-2" width="19.85" height="14.626" rx="2"/>
+      <rect class="cls-3" x="0.75" y="0.75" width="18.35" height="13.126" rx="1.25"/>
+    </g>
+    <path id="Path_35" data-name="Path 35" class="cls-1" d="M-1197.7,2956.859l8.709,8.581,9.093-8.581" transform="translate(2367.058 116.796)"/>
+    <line id="Line_11" data-name="Line 11" class="cls-1" y1="7.313" x2="5.224" transform="translate(1169.567 3079.548)"/>
+    <line id="Line_12" data-name="Line 12" class="cls-1" y1="7.313" x2="5.224" transform="matrix(-0.342, 0.94, -0.94, -0.342, 1188, 3082.001)"/>
+  </g>
+</svg>

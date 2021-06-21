@@ -142,27 +142,25 @@ main .home a:hover {
 
 main .quemSomos{
     width: 100vw;
-    height: 80%;
     display: flex;
     justify-content: center;
     background-color: rgb(247, 247, 247);
 }
 
 .quemSomos .tela{
-    max-width: 1300px;
-    display: flex;
-    justify-content: center;
+    border: 1px solid red;
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 100px;
 }
 
 .quemSomos .paragrafo{
-    flex: 1;
     padding-top: 80px;
-    margin-right: 120px;
     margin-bottom: 50px;
 }
 
-.paragrafo p{
+.paragrafo .p{
     color: gray;
     font-weight: lighter;
     font-size: 25px;
@@ -185,12 +183,11 @@ main .quemSomos{
 }
 
 .quemSomos .imagem{
-    width: 40em;
-    height: 9em;
+    text-align: right;
 }
 
 .imagem img{
-    width: 100%;
+    width: 90%;
 }
 
 main .operacao, main .vantagens{

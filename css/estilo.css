@@ -107,13 +107,16 @@ main .home{
     background-size: cover;
     background-position: center;
     padding-left: 35px;
-    padding-top: 300px;
+    padding-top: 260px;
     height: 100vh;
 }
 
 .home h1{
-    font-size: 3vw;
+    font-family: 'Mukta',sans-serif;
+    font-weight: 600;
+    font-size: 3.3vw;
     color:red;
+    line-height: 50px;
 }
 
 .home a{
@@ -136,7 +139,6 @@ main .home a:hover {
 }
 
 main .quemSomos{
-    border: 1px solid red;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -144,7 +146,6 @@ main .quemSomos{
 }
 
 .quemSomos .tela{
-    border: 1px solid red;
     max-width: 1160px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -187,7 +188,6 @@ main .quemSomos{
 }
 
 main .operacao, main .vantagens{
-    border: 1px solid red;
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: rgb(247, 247, 247);
@@ -218,7 +218,6 @@ main .operacao, main .vantagens{
 }
 
 .operacao .operacoes, .vantagens .operacoes{
-    border: 1px solid red;
     max-width: 1160px;
     margin: 0 auto;
     display: flex;
@@ -362,7 +361,7 @@ main .vantagens{
 
 footer{
     background-color: #e02c33;
-    padding: 90px 0;
+    padding: 90px 0 30px 0;
 }
 
 footer .f-container{
@@ -437,6 +436,7 @@ footer .f-container .cont-area3{
 
 footer .f-container .cont-area3 .cot{
     margin-bottom: 45px;
+    margin-left: 110px;
 }
 
 footer .f-container .cont-area3 .cot span{
@@ -449,7 +449,7 @@ footer .f-container .cont-area3 .cot img{
     height: 20px;
 }
 
-footer .f-container .cont-area3 a{
+footer .f-container .cont-area3 .cot a{
     display: inline-block;
     width: 220px;
     background-color: #fff;
@@ -457,15 +457,45 @@ footer .f-container .cont-area3 a{
     border-radius: 6px;
 }
 
-footer .f-container .cont-area3 a:hover{
+footer .f-container .cont-area3 .cot a:hover{
     box-shadow: 0px 5px 10px #333;
 }
 
 footer .f-container .cont-area3 .informa{
-    border: 1px solid black;
-    width: 385px;
-    height: 485px;
+    width: 330px;
     background-color: #fff;
     border-radius: 6px;
     padding-top: 45px;
+}
+
+footer .f-container .cont-area3 .informa h3{
+    color: #e02c33;
+    margin-left: 40px;
+    margin-bottom: 45px;
+}
+
+footer .f-container .cont-area3 .informa .info{
+    margin-left: 40px;
+    color: #777;
+    margin-bottom: 55px;
+}
+
+footer .f-container .cont-area3 .informa img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+footer .f-container .cont-area3 .informa .info a{
+    display: block;
+    color: #777;
+    margin-bottom: 22px;
+}
+
+footer .f-container .cont-area3 .informa .btn-contato{
+    display: block;
+    color: #777;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #e7dfdf;
 }

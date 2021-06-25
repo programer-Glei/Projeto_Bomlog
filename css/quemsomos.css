@@ -31,3 +31,32 @@
 .container .history img{
     width: 1160px;
 }
+
+.sec-cinza{
+    background-color: rgb(248, 248, 248);
+}
+
+.sec-cinza .container{
+    padding-top: 150px;
+}
+
+.container .cont-empr{
+    width: 640px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.cont-empr h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Mukta',sans-serif;
+    margin-bottom: 10px;
+}
+
+.cont-empr .texto{
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 1.6em;
+    color: #777;
+}
+

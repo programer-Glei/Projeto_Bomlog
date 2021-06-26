@@ -1,1 +1,14 @@
 
+#servicos .container h1{
+    margin-bottom: 45px;
+}
+
+#servicos .container .cont-para{
+    font-size: 25px;
+    line-height: 1.1em;
+    color: #777;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+    margin-bottom: 140px;
+}

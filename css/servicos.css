@@ -33,5 +33,40 @@ h2{
     color: #777;
     font-size: 21px;
     font-weight: 300;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
+}
+
+.cont-rod{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.cont-rod .rod-para{
+    font-family: 'Mukta',sans-serif;
+    color: #0b1323;
+    font-size: 2rem;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+.cont-rod a{
+    display: block;
+    width: 280px;
+    height: 65px;
+    border-radius: 8px;
+    border: none;
+    background: #e02c33;
+    color: #fff;
+    font-size: 17px;
+    line-height: 65px;
+    text-align: center;
+    transition: box-shadow .2s;
+    font-weight: 500;
+}
+
+.cont-rod a:hover{
+    box-shadow: 0px 5px 10px #333;
 }

@@ -183,3 +183,51 @@ h2{
     border-radius: 10px;
     background-color: #fff;
 }
+
+.torna-cliente .encont-textos{
+    width: 50%;
+    padding: 31px 120px 31px 0;
+}
+
+.torna-cliente .encont-textos h2{
+    font-size: 2.6rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.torna-cliente .encont-para{
+    font-family: Mukta,sans-serif;
+    color: #777;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.torna-form{
+    flex: 1;
+}
+
+.torna-form .torna-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 14px;
+}
+
+.torna-form .item-tex{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Mukta',sans-serif;
+    color: #777;
+    font-size: 1.7rem;
+    line-height: 1.1em;
+    font-weight: 700;
+}
+
+.torna-form .item-traco{
+    width: 60px;
+    height: 2px;
+    background-color: #e02c33;
+    color: #e02c33;
+}

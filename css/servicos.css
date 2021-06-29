@@ -83,6 +83,7 @@ h2{
 
 #n-frota .container{
     padding-top: 180px;
+    padding-bottom: 170px;
 }
 
 #n-frota h3{
@@ -95,5 +96,43 @@ h2{
 
 #n-frota .fundo .cont-para{
     font-size: 21px;
-    margin-bottom: 190px;
+}
+
+.img-cliente{
+    margin-bottom: 50px;
+}
+
+.img-cliente img{
+    width: 1150px;
+}
+
+.sec-cinza .container h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sec-cinza .container .btn-cotacao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.sec-cinza .container .btn-cotacao a{
+    display: block;
+    width: 220px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    color: black;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 8%);
+    transition: box-shadow .2s;
+    font-weight: 700;
+}
+
+.sec-cinza .container .btn-cotacao a:hover{
+    box-shadow: 0px 5px 10px #333;
 }

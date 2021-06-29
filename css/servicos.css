@@ -231,3 +231,27 @@ h2{
     background-color: #e02c33;
     color: #e02c33;
 }
+
+#c-encontra .container .rodape{
+    width: 100%;
+    height: 65vh;
+    background-image: url(../img/final-background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 160px;
+    margin-bottom: 120px;
+}
+
+
+#c-encontra .container .rodape a{
+    display: block;
+    width: 280px;
+    height: 65px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+    color: black;
+    font-size: medium;
+    line-height: 65px;
+    text-align: center;
+}

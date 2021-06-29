@@ -332,16 +332,19 @@ main .vantagens{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: rgba(0,0,0,0.5);
 }
 
-.rodape h1{
-    font-size: 46px;
-    color: white;
-    font-weight: 400;
+.rodape #sem-spc{
+    line-height: 1.1em;
+    font-weight: 700;
+    font-size: 2.9rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
 }
 
 .rodape a{

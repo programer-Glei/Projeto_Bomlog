@@ -355,9 +355,10 @@ main .vantagens{
     border: none;
     background: white;
     color: black;
-    font-size: medium;
+    font-size: 20px;
     line-height: 65px;
     text-align: center;
+    font-weight: 700;
 }
 
 /* footer */

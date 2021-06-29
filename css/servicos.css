@@ -82,7 +82,7 @@ h2{
 }
 
 #n-frota .container{
-    padding-top: 80px;
+    padding-top: 180px;
 }
 
 #n-frota h3{
@@ -91,4 +91,8 @@ h2{
     font-weight: 700;
     margin-bottom: 45px;
     color: #fff;
+}
+
+#n-frota .fundo .cont-para{
+    font-size: 21px;
 }

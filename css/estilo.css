@@ -113,8 +113,8 @@ main .home{
 
 .home h1{
     font-family: 'Mukta',sans-serif;
-    font-weight: 600;
-    font-size: 3.3vw;
+    font-weight: bold;
+    font-size: 60px;
     color:red;
     line-height: 50px;
 }

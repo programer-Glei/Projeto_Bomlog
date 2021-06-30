@@ -17,3 +17,34 @@
     font-weight: 700;
     font-size: 2.5rem;
 }
+
+.cont-form{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.cont-form .layout-form{
+    margin-top: -140px;
+    padding: 69px 102px 0;
+    border: 1px #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 10px 24px -3px rgb(0 0 0 / 5%);
+    font-family: 'Mukta',sans-seri
+}
+
+.cont-form .layout-form .cab-form{
+    padding: 0 90px;
+    font-family: 'Mukta',sans-serif;
+    text-align: center;
+    color: grey;
+    font-size: 1.45rem;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+
+form{
+    border: 1px solid red;
+}

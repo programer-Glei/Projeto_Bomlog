@@ -101,6 +101,7 @@ select{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15px;
 }
 
 .form-dados input{
@@ -124,4 +125,18 @@ select{
 
 .form-dados .inpu-dados.espaco{
     margin-right: 8px;
+}
+
+.form-mensa{
+    flex-direction: column;
+}
+
+.form-mensa label{
+    margin-bottom: 10px;
+}
+
+.form-mensa textarea{
+    border: none;
+    resize: none;
+    outline: none;
 }

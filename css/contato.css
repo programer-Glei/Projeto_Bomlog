@@ -103,11 +103,25 @@ select{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.form-dados input{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 0;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
 .form-dados .inpu-dados{
     display: flex;
     flex-direction: column;
 }
 
 .form-dados .inpu-dados.espaco{
-
+    margin-right: 8px;
 }

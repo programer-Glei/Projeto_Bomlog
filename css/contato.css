@@ -49,7 +49,7 @@ form{
     border: 1px solid red;
 }
 
-.form-subm, .form-dados, .form-mensa{
+.form-subm, .form-mensa{
     display: flex;
     width: 100%;
 }
@@ -95,4 +95,19 @@ select{
     color: #333;
     background-color: #fff;
     border: 1px solid #ccc;
+}
+
+.form-dados{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-dados .inpu-dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-dados .inpu-dados.espaco{
+
 }

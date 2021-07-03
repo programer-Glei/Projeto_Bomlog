@@ -142,6 +142,14 @@ select{
     padding-top: 160px;
 }
 
+.cont-img{
+    display: flex;
+}
+
+.cont-img .cnpj{
+    margin-left: 10px;
+}
+
 .cont-img img{
     width: 80px;
     height: 40px;

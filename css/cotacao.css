@@ -55,7 +55,7 @@ html,body,#cotacao,.contra-capa{
 }
 
 .cot-form{
-    width: 450px;
+    width: 380px;
     border-radius: 9px;
     background-color: hsla(0,0%,100%,.06);
     box-shadow: 0 7px 15px -3px rgb(0 0 0 / 20%);
@@ -66,4 +66,33 @@ html,body,#cotacao,.contra-capa{
     border-bottom: 1px solid hsla(0,0%,89.3%,0);
     background-color: hsla(0,0%,97.3%,.08);
     text-align: center;
+}
+
+.cot-form .cot-form-hea h3{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.15em;
+    font-weight: 400;
+}
+
+.cot-form-conteud{
+    padding: 15px 40px 30px 40px;    
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+    padding: 4px 2px 4px 7px;
+    border: 1px #dadada;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.input-field input{
+    height: 30px;
+    border: 0 solid #000;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
 }

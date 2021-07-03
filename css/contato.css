@@ -140,7 +140,9 @@ select{
 
 .container.contato{
     padding-top: 160px;
+    padding-left: 120px;
     display: flex;
+    padding-bottom: 160px;
 }
 
 .cont-img{

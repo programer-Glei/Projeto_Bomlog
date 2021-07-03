@@ -150,6 +150,15 @@ select{
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    font-family: 'Mukta',sans-serif;
+    color: #777;
+}
+
+.cnpj strong{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.4em;
+    color: rgb(119, 119, 119)
 }
 
 .cont-img img{

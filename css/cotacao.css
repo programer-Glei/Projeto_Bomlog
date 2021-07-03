@@ -114,3 +114,18 @@ html,body,#cotacao,.contra-capa{
     outline: none;
     padding: 0;
 }
+
+.btn-enviar{
+    width: 100%;
+    margin-top: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    background-color: #ef4336;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 20%);
+    font-size: .9rem;
+    font-weight: 400;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}

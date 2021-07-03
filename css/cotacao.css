@@ -21,7 +21,7 @@ html,body,#cotacao,.contra-capa{
 
 .cot-logo{
     text-align: center;
-    margin-bottom: 110px;
+    margin-bottom: 90px;
 }
 
 .cot-logo img{
@@ -41,4 +41,11 @@ html,body,#cotacao,.contra-capa{
     font-size: 3rem;
     line-height: 1.1em;
     text-align: initial;
+}
+
+.cot-conteudo .cot-texto .cot-paragra{
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    font-weight: 300;
 }

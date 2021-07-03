@@ -21,6 +21,7 @@ html,body,#cotacao,.contra-capa{
 
 .cot-logo{
     text-align: center;
+    margin-bottom: 110px;
 }
 
 .cot-logo img{
@@ -30,4 +31,14 @@ html,body,#cotacao,.contra-capa{
 
 .cot-conteudo{
     display: flex;
+    padding: 0 90px;
+}
+
+.cot-conteudo .cot-texto h1{
+    margin-bottom: 35px;
+    font-family: 'Mukta',sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.1em;
+    text-align: initial;
 }

@@ -34,6 +34,10 @@ html,body,#cotacao,.contra-capa{
     padding: 0 90px;
 }
 
+.cot-conteudo .cot-texto{
+    margin-right: 200px;
+}
+
 .cot-conteudo .cot-texto h1{
     margin-bottom: 35px;
     font-family: 'Mukta',sans-serif;
@@ -48,4 +52,18 @@ html,body,#cotacao,.contra-capa{
     font-size: 1.3rem;
     line-height: 1.4em;
     font-weight: 300;
+}
+
+.cot-form{
+    width: 450px;
+    border-radius: 9px;
+    background-color: hsla(0,0%,100%,.06);
+    box-shadow: 0 7px 15px -3px rgb(0 0 0 / 20%);
+}
+
+.cot-form .cot-form-hea{
+    padding: 9px 20px 8px;
+    border-bottom: 1px solid hsla(0,0%,89.3%,0);
+    background-color: hsla(0,0%,97.3%,.08);
+    text-align: center;
 }

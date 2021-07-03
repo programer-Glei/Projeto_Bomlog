@@ -137,3 +137,12 @@ select{
     resize: none;
     outline: none;
 }
+
+.container.contato{
+    padding-top: 160px;
+}
+
+.cont-img img{
+    width: 80px;
+    height: 40px;
+}

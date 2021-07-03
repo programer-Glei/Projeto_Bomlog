@@ -107,3 +107,10 @@ html,body,#cotacao,.contra-capa{
     font-weight: 700;
     outline: none;
 }
+
+.input-field select{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 0;
+}

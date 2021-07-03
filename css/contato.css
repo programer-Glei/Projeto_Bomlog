@@ -140,10 +140,12 @@ select{
 
 .container.contato{
     padding-top: 160px;
+    display: flex;
 }
 
 .cont-img{
     display: flex;
+    margin-right: 110px;
 }
 
 .cont-img .cnpj{
@@ -154,7 +156,7 @@ select{
     color: #777;
 }
 
-.cnpj strong{
+.cnpj strong, .cont-end strong{
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.4em;
@@ -165,3 +167,14 @@ select{
     width: 80px;
     height: 30px;
 }
+
+.cont-end img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.cont-end a{
+    display: block;
+    color: #777;
+    margin-bottom: 22px;
